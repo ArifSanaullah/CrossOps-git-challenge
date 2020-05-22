@@ -1,5 +1,3 @@
-
-
 const health = (req, res) => {
   res.status(200).send({
     status: 200,
@@ -7,6 +5,8 @@ const health = (req, res) => {
   });
 };
 
+const user = (req, res) => {
+  res.status(200).send({ route: "/user", status: "OK" });
+};
 
-
-module.exports = { health };
+module.exports = { health, user };
