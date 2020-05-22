@@ -6,7 +6,7 @@ const health = (req, res) => {
 };
 
 const user = (req, res) => {
-  res.status(200).send({ route: "/user", status: "OK" });
+  res.status(200).send({ route: "/user", method: "GET", status: "OK" });
 };
 
 module.exports = { health, user };
