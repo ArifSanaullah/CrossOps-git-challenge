@@ -1,0 +1,26 @@
+{
+  "name": "crossops-git-challenge",
+  "version": "1.0.0",
+  "description": "Solution repo for CrossOps git challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArifSanaullah/CrossOps-git-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArifSanaullah/CrossOps-git-challenge/issues"
+  },
+  "homepage": "https://github.com/ArifSanaullah/CrossOps-git-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
